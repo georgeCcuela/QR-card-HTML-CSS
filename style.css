@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*
+{
+     margin: 0;
+     padding: 0;
+     font-family: 'Outfit', sans-serif;
+}
+body
+{
+     background-color: var(--lightGray);
+}
+
+:root
+{
+     --white: hsl(0, 0%, 100%);
+     --lightGray: hsl(212, 45%, 89%);
+     --grayishBlue: hsl(220, 15%, 55%);
+     --darkBlue: hsl(218, 44%, 22%);
+}
+
+.padre
+{
+     background-color: var(--white);
+     width: 320px;
+     height: 500px;
+     margin: 50px auto;
+     padding: 18px;
+     border-radius: 16px;
+}
+.hijo-img
+{
+     background-image: url(./images/image-qr-code.png);
+     background-size: cover;
+     width: 100%;
+     height: 305px;
+     margin-bottom: 20px;
+     border-radius: 16px;
+}
+.hijo-text
+{
+     margin: 15px;
+}
+h1
+{
+     color: var(--darkBlue);
+     font-size: 24px;
+     text-align: center;
+     margin-bottom: 16px;
+}
+p
+{
+     color: var(--grayishBlue);
+     text-align: center;
+}
+
+.attribution
+{
+     font-size: 14px;
+     text-align: center;
+}
+.attribution a
+{
+     color: hsl(228, 45%, 44%);
+}
